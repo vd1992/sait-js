@@ -1,0 +1,36 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quizContain{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.qe1{
+    display: inline;
+}
+
+.qe2{
+    display:none;
+}
+
+.qe3{
+    display: none;
+}
+
+.qe4{
+    display:none;
+}
+
+.qe5{
+    display:none;
+}
+
+.controlButtons{
+    display:flex;
+    justify-content: center;
+}
