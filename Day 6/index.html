@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colours</title>
+    <link rel="stylesheet" href="./styling.css">
+</head>
+
+<body>
+    
+    <div class="formHold">
+        <h1>hello, have some colours</h1>
+        <form name=formColor>
+            <label for="num">Number of Colors:</label>
+            <input class ="inputs" name="num" type="number" value="1" min="1" max="10" required/>
+            <br/>
+
+            <label for="hues">Hue:</label>
+            <select class="inputs" name="hues">
+                <option>red</option>
+                <option>blue</option>
+                <option>violet</option>
+                <option>orange</option>
+            </select>
+            <br/>
+
+            <label for="lum">Luminosity:</label>
+            <select class="inputs" name="lum">
+                <option>light</option>
+                <option>dark</option>
+                <option>random</option>
+            </select>
+            <br/>
+            <input id="subm" value="Get Results" type="button"/>
+        </form>
+    </div>
+
+    <div class="holdhold">
+        <div id="swathHold">
+        
+        </div>   
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="colours.js"></script>
+
+</html>
