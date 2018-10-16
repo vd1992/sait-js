@@ -4,64 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Quiz Time</title>
     <link rel="stylesheet" href="./mystyle.css">
 </head>
+
 <body>
     <h1>Quiz!</h1>
     <div class="quizContain">
         <div id ="q1" class="qe1">
             <h2>Question One, Your Name?</h2>
-            <form name="q1">
+            <form name="fq1">
                 <label for="name">Enter Your Name</label>
                 <input type="text" id="firstName" name="name" value="John Doe"/>
-                <!-- <input type="submit" name="submit1" id="submitB1" value="Submit"/> -->
             </form>
         </div>
 
         <div id ="q2" class="qe2">
             <h2>Question Two, Select Correctly</h2>
-            <form name="q2">
-                <select>
+            <form name="fq2">
+                <select name="selector">
                     <option>Wrong</option>
                     <option>Correct</option>
                     <option>Wrong</option>
                 </select>
-                <!-- <input type="submit" name="submit2" id="submitB2" value="Submit"/> -->
             </form>
         </div>
 
         <div id ="q3" class="qe3">
             <h2>Question Three, Select Correctly Again</h2>
-            <form name="q3">
-                <input type="radio" name="yes/no" value="Wrong"checked /> Wrong
-                <input type="radio" name="yes/no" value="Correct" /> Correct
-                <!-- <input type="submit" name="submit3" id="submitB3" value="Submit"/> -->
+            <form name="fq3">
+                <input type="radio" name="yesno" value="Wrong"checked /> Wrong
+                <input type="radio" name="yesno" value="Correct" /> Correct
             </form>
         </div>
 
         <div id ="q4" class="qe4">
             <h2>Question Four, Solve the Scary Equation</h2>
-            <form name="q4">
+            <form name="fq4">
                 <label for="num">1+1=?</label>
                 <input type="number" id="number" name="num" value="0"/>
-                <!-- <input type="submit" name="submit4" id="submitB4" value="Submit"/> -->
             </form>
         </div>
 
         <div id ="q5" class="qe5">
             <h2>Final Question, Whose Quiz is This?</h2>
-            <form name="q1">
+            <form name="fq5">
                 <label for="owner">Just the First Name</label>
                 <input type="text" id="ownername" name="owner" value="Someones"/>
-                <input type="submit" name="submit5" id="submitB5" value="Submit"/>
             </form>
         </div>    
+
         <div class="controlButtons">
             <button id ="bp" onclick="prev()">Previous</button>
             <button id ="bn" onclick="next()">Next</button>
         </div>
     </div>
 </body>
+
 <script src="./exercise-5.js"></script>
+
 </html>
