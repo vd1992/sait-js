@@ -1,0 +1,33 @@
+.formHold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonHold{
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.songBox{
+    margin-top:5px;
+}
+
+.lyricP{
+    animation-duration: 0.75s;
+    animation-name: slidein;
+    margin-bottom:-5px;
+    overflow: hidden;
+    font-style: italic;
+}
+  
+@keyframes slidein{
+    from{
+      margin-left: 50%;
+    }
+    to{
+      margin-left: 0%;
+    }
+}
