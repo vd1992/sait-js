@@ -24,3 +24,21 @@ form{
     margin-top:10px;
 }
 
+.color{
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    margin-right:5px;
+    overflow: hidden;
+  }
+  
+  @keyframes slidein{
+    from{
+      margin-left: 50%;
+      width: 75px; 
+    }
+    to{
+      margin-left: 0%;
+      width: 75px;
+    }
+  }
+
